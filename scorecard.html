@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Howzatt Scorecard</title>
+    <link rel="stylesheet" href="css/scorecard.css">
+</head>
+<body>
+    <div class="scorecard-container">
+        <h1>Match Scorecard</h1>
+
+        <button id="backToLiveBtn">Back to Live Match</button>
+        <button id="summaryPageBtn">Go to Summary</button>
+
+        <h2>Batting Scorecard</h2>
+        <table id="batting-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Runs</th>
+                    <th>Balls</th>
+                    <th>4s</th>
+                    <th>6s</th>
+                    <th>Strike Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Filled by JS -->
+            </tbody>
+        </table>
+
+        <h2>Bowling Scorecard</h2>
+        <table id="bowling-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Overs</th>
+                    <th>Maidens</th>
+                    <th>Runs Conceded</th>
+                    <th>Wickets</th>
+                    <th>Economy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Filled by JS -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/score.js"></script>
+</body>
+</html>

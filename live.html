@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Match</title>
+    <link rel="stylesheet" href="css/live.css">
+</head>
+<body>
+    <h1 id="match-status"></h1>
+    
+    <div class="score-section">
+        <div id="overall-score"></div>
+        <div id="team-scores"></div>
+
+        <div id="run-rates">
+            <p>CRR: <span id="crr">0.00</span> | RRR: <span id="rrr">0.00</span></p>
+
+        </div>
+    </div>
+    
+    <section id="batter-table">
+        <h3>Batter Table</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Batter</th>
+                    <th>Runs Scored</th>
+                    <th>Balls Faced</th>
+                    <th>4s</th>
+                    <th>6s</th>
+                    <th>Strike Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!--filled by js--></tr>
+                <tr><!--filled by js--></tr>
+            </tbody>
+        </table>
+    </section>
+
+   
+    <section id="bowler-stats">
+        <h3>Bowler Table</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Bowler Name</th>
+                    <th>Overs</th>
+                    <th>Maidens</th>
+                    <th>Runs Conceded</th>
+                    <th>Wickets</th>
+                    <th>Economy Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <!--filled by js-->
+            </tbody>
+        </table>
+    </section>
+
+     
+    <section id="scoring-buttons">
+        <button class="score-btn" data-runs="0">0 runs</button>
+        <button class="score-btn" data-runs="1" id="oneRunButton">1 run</button>
+        <button class="score-btn" data-runs="2" id="twoRunButton">2 runs</button>
+        <button class="score-btn" data-runs="3" id="threeRunButton">3 runs</button>
+        <button class="score-btn" data-runs="4" id="fourButton">4 runs</button>
+        <button class="score-btn" data-runs="6" id="sixButton">6 runs</button>
+        <button id="wicket-btn">Wicket</button>
+    </section>
+
+    <section id="navigation-buttons">
+        <p>
+            <button id="scorecard-btn">Scorecard</button> 
+        </p>
+    </section>
+
+    <script src="js/score.js"></script>
+</body>
+</html>
+

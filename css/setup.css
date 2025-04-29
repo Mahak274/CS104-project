@@ -1,0 +1,64 @@
+/* setup.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #fc79b8, #be96e6);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.match-setup {
+    background: rgba(255, 255, 255, 0.815);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+.match-setup h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #7a0b0b;
+}
+
+.match-setup p,
+.match-setup label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.match-setup input[type="text"],
+.match-setup select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.match-setup button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    background-color: #120b7a;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.match-setup button:hover {
+    background-color: #246d0a;
+}

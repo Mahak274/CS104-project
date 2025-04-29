@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Howzatt Cricet Match Setup</title>
+        <link rel="stylesheet" href="css/setup.css">
+    </head>
+
+    <body>
+        <div class="match-setup">
+            <h1>Match Setup</h1>
+            <form id="match" onsubmit="goToLiveMatch()">
+                <p>Team 1 Name:
+                    <input type="text" id="team1" required>
+                </p>
+                <p>Team 2 Name:
+                    <input type="text" id="team2" required>
+                </p>
+            
+                <label>Toss Winner:</label>
+                <select id="toss-winner"  required>
+                    <option value="">--select--</option>
+                    <option value="team1">Team 1</option>
+                    <option value="team2">Team 2</option>
+                </select>
+
+                <label>Toss Decision:</label>
+                <select id="toss-decision" required>
+                    <option value="">--select--</option>
+                    <option value="bat">Bat</option>
+                    <option value="bowl">Bowl</option>
+                </select>
+                <p>
+                    <button type="submit" id="startMatchBtn">Start Match</button>
+                </p>
+            </form>
+            
+        </div>
+        <script src="js/score.js"></script>
+        
+    </body>
+</html>

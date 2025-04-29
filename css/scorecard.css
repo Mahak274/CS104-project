@@ -1,0 +1,72 @@
+/* scorecard.css */
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    min-height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: #d35400;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 26px;
+    color: #e67e22;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+th, td {
+    padding: 14px 18px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+thead {
+    background-color: #ffe0b2;
+    color: #5d4037;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fff7ed;
+}
+
+tbody tr:hover {
+    background-color: #ffe9d6;
+}
+
+button {
+    margin-bottom: 30px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #d35400;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
